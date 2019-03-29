@@ -28,3 +28,11 @@
 #
 #Delete these comments before commit!
 #Good luck.
+
+
+from diary import Diary,Student,SchoolClass
+
+diary = Diary()
+schoolclass = SchoolClass("biology")
+student = Student("majlosz","ef")
+#schoolclass.add_students([student])
